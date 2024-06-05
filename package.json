@@ -1,0 +1,28 @@
+{
+  "name": "m2ar9_countdown_timer",
+  "version": "1.0.0",
+  "description":"A countdown timer built using TypeScript and date-fns module.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":  [
+    "countdown",
+    "timer",
+    "typescript",
+    "date-fns",
+    "inquirer"
+  ],
+  "author": "Muneeba Arshad",
+  "license": "ISC",
+  "dependencies": {
+    "data-fns": "^1.1.0",
+    "date-fns": "^3.6.0",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
